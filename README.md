@@ -1,4 +1,5 @@
 # schmidtinator
+## a literaric inspirative nonsense gimmick
 An­lei­tung : Ge­ben Sie Ihr­en Schmidt­etym­bruch zu ein­em bis drei Zei­chen, mit Leer­zei­chen ab­ge­setzt, ge­tren­nt mit ei­nem
 ```
 "	 /  	"
