@@ -22,5 +22,5 @@ Z.B. 3 + 3 + 2.
 
 Sonst­ige Zahl­en oder Zeich­en sind nicht zu­ge­las­sen. Das Pro­gramm be­nutzt Reg­ex und css. Der Re­gex­aus­druck kön­nte um wei­te­re Zeich­en er­gänzt wer­den. Wir schrei­ben die Ein­ga­be mit (hier). Vorsicht: Suchtgefahr.
 
-![screenshot](screenshot_2021.jpeg)
+![screenshot](Screenshot_2021.jpeg)
 
