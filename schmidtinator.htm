@@ -1,0 +1,122 @@
+A / B
+
+aaa / bbb
+
+ccc / ddd
+
+Regex find:([a-zA-Z]{1,3}) / ([a-zA-Z]{1,3})
+Replace:<sup>$1</sup> / <sub>$2</sub>
+
+<!DOCTYPE html>
+<html>
+<body>
+​
+<?php
+$str = "A / B 
+aaa / bbb 
+ccc / ddd";
+$pattern = "#([a-z]{3}) / ([a-z]{3})#";
+echo preg_match($pattern, $str); 
+?>
+​
+</body>
+</html>
+erg: !1
+
+<!DOCTYPE html>
+<html>
+	<head>
+	<style type="text/css">
+	span.frac {
+	display: inline-block;
+	text-align: center;
+	
+}
+    span.frac > sup {
+	display: block;
+	border-bottom: 1px solid;
+	font: inherit;
+	
+}
+    span.frac > span {
+	display: none;
+}
+span.frac > sub {
+	display: block;
+	font: inherit;
+}
+	span.uml {
+	display: inline-block;
+	text-align: center;
+	vertical-align:-5px;
+}
+span.uml > sup {
+	display: block;
+	font: inherit;
+	position: relative; top: 10px;
+}
+span.uml > span {
+	display: none;
+}
+span.uml > sub {
+	display: block;
+	font: inherit; 
+	vertical-align:5px;
+	
+}
+#box {
+  width:70%;
+line-height: 1.5;
+ margin: 0px auto;
+    //margin-top: 10em; auto;
+  padding: 15px;
+  text-align: center;
+  background-color: #fff5ee;
+  // border: 1px solid blue; 
+  // border-width:5px;
+  //  border-spacing: -15px;
+  //  border-margin:15px;
+}
+body {
+  margin: 20px;
+  text-align: center;  /* nur f&uuml;r alte Browser */
+  background-color: #29220a;//#e6e6fa;
+}
+hr.new1 {
+  border-top: 3px solid darkgrey;
+  width:20%;
+}
+.brl
+{
+padding: 8px;
+border-right: 5px solid #f00;
+border-left: 5px solid #f00;
+} 
+</style></head>
+<body>
+​
+<?php
+$str = "A / B 
+aaa / bbb 
+ccc / ddd";
+$pattern = "#([a-z]{1,3}) / ([a-z]{1,3})#i";
+echo preg_match_all($pattern, $str); 
+?>
+​
+</body>
+</html>
+
+
+<?php
+$str = "A / B 
+aaa / bbb 
+ccc / ddd";
+$pattern = "#([a-z]{1,3}) / ([a-z]{1,3})#i";
+$sing ="<sup>$1</sup> / <sub>$2</sub>";
+echo preg_replace($pattern, $sing, $str);
+?>
+
+</body>
+</html>
+Funktioniert!
+<span style="vertical-align:-10px;"><span class="frac"><sup>$1</sup><span> / </span><sub>$2</sub></span></span>

@@ -1,0 +1,90 @@
+/* class frac wichtig fuer Schmidtinator oder Brueche */
+	span.frac {
+	display: inline-block;
+	text-align: center;
+	
+}
+    span.frac > sup {
+	display: block;
+	border-bottom: 1px solid;
+	font: inherit;
+	
+}
+    span.frac > span {
+	display: none;
+}
+span.frac > sub {
+	display: block;
+	font: inherit;
+}
+/* Class uml fuer uebereinandergestellte Umlaute oe etc. Bruch ohne Bruchstrich.*/
+	span.uml {
+	display: inline-block;
+	text-align: center;
+	vertical-align:-5px;
+}
+span.uml > sup {
+	display: block;
+	font: inherit;
+	position: relative; top: 10px;
+}
+span.uml > span {
+	display: none;
+}
+span.uml > sub {
+	display: block;
+	font: inherit; 
+	vertical-align:5px;
+	
+}
+
+/* Zettels Traum css style, unwichtig.*/
+#box {
+  width:65%;
+line-height: 1.5;
+outline: #fff5ee solid 10px;
+border: #000 solid 2px;
+ margin: 0px auto;
+    //margin-top: 10em; auto;
+  padding: 15px;
+  text-align: center;
+  background-color: #fff5ee;
+  float: left;
+  // border: 1px solid blue; 
+  // border-width:5px;
+  //  border-spacing: -15px;
+  //  border-margin:15px;
+}
+#box.right {
+	position:static;
+width:25%;
+line-height: 1.5;
+ margin: 0px auto;
+    //margin-top: 10em; auto;
+  padding: 15px;
+  float: right;
+  overflow: true;
+  background-color: #fff5ee;
+border:none;
+outline: none;
+line-height: 0.7;
+text-align: justify;
+}
+#box.footer{
+}
+body {
+  margin: 20px;
+  text-align: center;  /* nur fuer alte Browser */
+  background-color: #29220a;//#e6e6fa;
+  font-family: monospaced;
+}
+hr.new1 {
+  border-top: 3px solid darkgrey;
+  width:20%;
+}
+.brl
+{
+padding: 8px;
+border-right: 5px solid #f00;
+border-left: 5px solid #f00;
+} 
