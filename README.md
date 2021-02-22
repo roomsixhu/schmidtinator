@@ -36,9 +36,9 @@ Root folder as long as my links point ../style.css instead style.css.
 
 * Some radiobuttons for different regex patterns, or additional charakters, Numbers. Or stringlenth.
 * Correct this silly onclick="this.value=''" to run only once.
-* Bottoms Dream stylish exportin three columns.
+* Bottoms Dream stylish export in three columns.
 * Texteditor incorporate.
 * Some basic security, trim, substring wordwrap and filsize limitation
 * try Post method
 * Translate Anleitung usage. 
-* B/W style
+* B/W style alternative, switch.
