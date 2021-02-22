@@ -25,3 +25,20 @@ Sonst­ige Zahl­en oder Zeich­en sind nicht zu­ge­las­sen. Das Pro­gramm b
 
 ![screenshot](Screenshot_2021.jpeg)
 
+## Installation
+
+Put schmidtinatorfunktioniertregex2.php and deepspace.php and style.css in your root folder with PHP support.
+If it do not work uncomment css style in schm...ex2.php or put and try with style.php.
+Root folder as long as my links point ../style.css instead style.css.
+
+
+## To Do
+
+* Some radiobuttons for different regex patterns, or additional charakters, Numbers. Or stringlenth.
+* Correct this silly onclick="this.value=''" to run only once.
+* Bottoms Dream stylish exportin three columns.
+* Texteditor incorporate.
+* Some basic security, trim, substring wordwrap and filsize limitation
+* try Post method
+* Translate Anleitung usage. 
+* B/W style
