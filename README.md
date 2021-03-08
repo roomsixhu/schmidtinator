@@ -24,6 +24,9 @@ Z.B. 3 + 3 + 2.
 Sonst­ige Zahl­en oder Zeich­en sind nicht zu­ge­las­sen. Das Pro­gramm be­nutzt Reg­ex und css. Der Re­gex­aus­druck kön­nte um wei­te­re Zeich­en er­gänzt wer­den. Wir schrei­ben die Ein­ga­be mit (hier). Vorsicht: Suchtgefahr.
 
 ![screenshot](Screenshot_2021.jpeg)
+## Feature
+In version 3 frac style with and without line.
+On version 4, vertical align control value input.
 ## Output
 Is written to ator.txt (should be created if empty), can be c&p in textarea box, atortext is renrdered with deepspace.htm.php
 
@@ -37,10 +40,11 @@ Root folder as long as my links point ../style.css instead style.css.
 ## To Do
 
 * Some radiobuttons for different regex patterns, or additional charakters, Numbers. Or stringlenth.
-* Correct this silly onclick="this.value=''" to run only once.
+* ~~Correct this silly onclick="this.value=''" to run only once.~~ Done
 * Bottoms Dream stylish export in three columns.
 * Texteditor incorporate.
 * Some basic security, trim, substring wordwrap and filsize limitation
 * try Post method
 * Translate Anleitung usage. 
 * B/W style alternative, switch.
+* Code clean up
